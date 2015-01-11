@@ -9,4 +9,4 @@
 
 // MINIMAL required version for the Mod. Components can specify others..
 #define REQUIRED_VERSION 0.01
-#define ASR_AI_USERCFG_VERSION 1
+#define REN_AI_USERCFG_VERSION 1
