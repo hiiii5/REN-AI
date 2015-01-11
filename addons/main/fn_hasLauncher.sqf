@@ -23,9 +23,11 @@ Date:
 See: https://community.bistudio.com/wiki/secondaryWeapon
 ---------------------------------------------------------------------------- */
 
-private["_unit", "_hasLauncher", "_secondaryWeapon"];
+private["_unit", "_secondaryWeapon", "_hasLauncher"];
 
 PARAMS_1(_unit);
+
+if(vehicle _unit == _unit ) exitWith {}; // Unit is within a vehicle
 
 _secondaryWeapon = secondaryWeapon _unit;
 
